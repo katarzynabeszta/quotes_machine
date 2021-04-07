@@ -1,0 +1,87 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+}
+
+body .quote {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  max-width: 40%;
+  min-height: 200px;
+  padding: 50px;
+  font-size: 28px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .quote .quote__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .quote .quote__content .quote__content--icon {
+  font-size: 28px;
+  padding-right: 5px;
+}
+
+body .quote .quote__content .quote__content--author {
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+body .quote .quote__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 100px;
+}
+
+body .quote .quote__button .quote__button--twitter {
+  font-size: 52px;
+  color: #000000;
+}
+
+body .quote .quote__button .quote__button--newquote {
+  color: #ffffff;
+  background-color: #000000;
+  height: 50px;
+  width: 180px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
