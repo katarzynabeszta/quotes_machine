@@ -1,6 +1,6 @@
 'use strict';
 
-const buttonNewQuote = document.querySelector('.quote__button--newquote');
+const buttonNewQuote = document.querySelector('.quote__button--newquote'); // test
 
 const quotes = [
     {
